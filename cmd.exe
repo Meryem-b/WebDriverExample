@@ -1,0 +1,75 @@
+Microsoft Windows [Version 10.0.19042.1288]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\z004du6d>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z004du6d>cd /Users/z004du6d/eclipse-workspace/\WebDriverTest
+
+C:\Users\z004du6d\eclipse-workspace\WebDriverTest>git init
+Initialized empty Git repository in C:/Users/z004du6d/eclipse-workspace/WebDriverTest/.git/
+
+C:\Users\z004du6d\eclipse-workspace\WebDriverTest>git add .
+
+C:\Users\z004du6d\eclipse-workspace\WebDriverTest>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   pom.xml
+        new file:   src/test/java/Test/WebTest.java
+        new file:   target/classes/META-INF/MANIFEST.MF
+        new file:   target/classes/META-INF/maven/in.automationtesting.youtube/YoutubeMavenProject/pom.properties
+        new file:   target/classes/META-INF/maven/in.automationtesting.youtube/YoutubeMavenProject/pom.xml
+        new file:   target/test-classes/Test/WebTest.class
+
+
+C:\Users\z004du6d\eclipse-workspace\WebDriverTest>git commit -m "First commit"
+[master (root-commit) 4ddc1a8] First commit
+ Committer: Bolat <meryem.bolat@siemens.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 310 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 pom.xml
+ create mode 100644 src/test/java/Test/WebTest.java
+ create mode 100644 target/classes/META-INF/MANIFEST.MF
+ create mode 100644 target/classes/META-INF/maven/in.automationtesting.youtube/YoutubeMavenProject/pom.properties
+ create mode 100644 target/classes/META-INF/maven/in.automationtesting.youtube/YoutubeMavenProject/pom.xml
+ create mode 100644 target/test-classes/Test/WebTest.class
+
+C:\Users\z004du6d\eclipse-workspace\WebDriverTest>git remote add origin https://github.com/Meryem-b/WebDriverExample.git
+
+C:\Users\z004du6d\eclipse-workspace\WebDriverTest>git push -u origin master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (25/25), 6.78 KiB | 1.36 MiB/s, done.
+Total 25 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Meryem-b/WebDriverExample.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\z004du6d\eclipse-workspace\WebDriverTest>
